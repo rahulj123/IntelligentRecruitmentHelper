@@ -54,30 +54,54 @@ In Folder 'Video'
 
 Included in Project Report
 
-### [ 1 ] To run the system using iss-vm
+Remote Installation
 
-> download pre-built virtual machine from http://bit.ly/iss-vm
+We have deployed our application for easy access at URL   http://cfuat.xyz/hrms
 
-> start iss-vm
 
-> open terminal in iss-vm
+Local Installation
 
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
+AI service
+•	Download the PyCharm project from Git-Hub
+•	Install PyCharm in system
+•	Open the project using PyCharm
+•	Install all dependencies as mentioned in the requirements file
+•	Run the app.py from the PyCharm project
 
-> $ source activate iss-env-py2
 
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
+Microservices Installation
+•	Step for setting up the system
+•	Install Java 1.8
+•	Install MySQL on local host system with port number – 3306
+•	Create database name: cfuat_hrms and username/password: cfuat_spring/Codeface@123
+•	import hrms mysql.sql dump into MySQL (import the dataset)
+•	Run all micro service module in following order
+1. Eureka Service (eureka.jar)
+comment: java -jar eureka.jar
 
-> (iss-env-py2) $ python app.py
+2. API Gateway Service (gateway.jar)
+comment: java -jar gateway.jar
 
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
+3. Db opera%on micro service (db-service.jar)
+comment: java -jar db-service.jar
 
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
+4. Authen%ca%on Service (auth.jar)
+comment: java -jar auth.jar
 
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
+5. Employee Service (employee.jar)
+comment: java -jar employee.jar
 
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+6. Recruitment Service (job.jar)
+comment: java -jar job.jar
+
+7. Payroll Service (payroll.jar)
+comment: java -jar payroll.jar
+
+8. Posi%on Service (posi/on.jar)
+comment: java -jar posi/on.jar
+
+6. Deploy Client side applica/on on any applica/on server
+
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
