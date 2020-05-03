@@ -17,7 +17,7 @@ IPA-2020-01-18-IS02PT-GRP-Rahul_Soorej-Intelligent_Recruitment_Helper.zip
 ## SECTION 1 : PROJECT TITLE
 ## Intelligent Recruitment Helper
 
-<img src="SystemCode/clips/static/hdb-bto.png"
+<img src="./Miscellaneous./Intelligent Recruitment Helper.png"
      style="float: left; margin-right: 0px;" />
 
 ---
