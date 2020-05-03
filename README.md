@@ -54,14 +54,14 @@ In Folder 'Video'
 
 Included in Project Report
 
-Remote Installation
+**Remote Installation**
 
 We have deployed our application for easy access at URL   http://cfuat.xyz/hrms
 
 
-Local Installation
+**Local Installation**
 
-AI service
+*AI service*
 •	Download the PyCharm project from Git-Hub
 •	Install PyCharm in system
 •	Open the project using PyCharm
@@ -69,13 +69,14 @@ AI service
 •	Run the app.py from the PyCharm project
 
 
-Microservices Installation
+*Microservices Installation*
 •	Step for setting up the system
 •	Install Java 1.8
 •	Install MySQL on local host system with port number – 3306
 •	Create database name: cfuat_hrms and username/password: cfuat_spring/Codeface@123
 •	import hrms mysql.sql dump into MySQL (import the dataset)
 •	Run all micro service module in following order
+
 1. Eureka Service (eureka.jar)
 comment: java -jar eureka.jar
 
@@ -109,21 +110,6 @@ comment: java -jar posi/on.jar
 `Refer to project report at Github Folder: ProjectReport`
 
 **Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
 
 ---
 ## SECTION 7 : MISCELLANEOUS
