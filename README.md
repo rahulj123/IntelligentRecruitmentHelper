@@ -47,8 +47,8 @@ We have designed and developed our system up to a working MVP level with core fu
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-In Folder 'Video'
----
+https://drive.google.com/file/d/1E8-Y5_YgYEC1BKq8aniKy8UyJAe3p2eO/view?usp=sharing
+
 
 ## SECTION 5 : USER GUIDE & Installation Guide 
 
@@ -57,7 +57,8 @@ Included in Project Report
 **Remote Installation**
 
 We have deployed our application for easy access at URL   http://cfuat.xyz/hrms
-
+username: HR1
+password: 1234567890
 
 **Local Installation**
 
