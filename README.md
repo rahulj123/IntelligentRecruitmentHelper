@@ -49,6 +49,7 @@ We have designed and developed our system up to a working MVP level with core fu
 
 https://drive.google.com/open?id=15rRKW9ZQtTkVyASxf-rlsD-k03yR-DJW
 
+https://drive.google.com/open?id=1HEqB3Gofmya1yrlfE3BpPv9IrzlfqcPs
 
 ## SECTION 5 : USER GUIDE & Installation Guide 
 
